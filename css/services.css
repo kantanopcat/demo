@@ -1,0 +1,49 @@
+.content-services{
+    max-width: 960px;
+height: auto;
+}
+.content-services-grid{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    background-color: rgba(148, 148, 148, 0.473);
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.content-services-item .fa{
+    font-size: 2rem;
+    color: #004b04;
+    margin: 10px;
+    
+}
+.content-services-item h1{
+    font-size: 20px;
+    color: #004b04;
+    margin: 10px;
+}
+
+
+/* -------------------------------------- */
+
+.content-services-grid:hover{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    background-color: chartreuse;
+    border-radius: 20px;
+    margin: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.content-services-item:hover .fa{
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 10px;
+    
+}
+.content-services-item:hover h1{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10px;
+}

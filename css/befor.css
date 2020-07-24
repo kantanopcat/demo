@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');
+
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+
+.befor{
+    display: grid;
+    grid-template-columns: 515px 1fr;
+    margin-top: 5em;
+    font-family: 'Mitr', sans-serif;
+    font-size: 0.8em;
+    grid-gap: 1px;
+}

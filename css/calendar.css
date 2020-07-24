@@ -1,0 +1,12 @@
+.calendar{
+max-width: 100%;
+height: auto;
+}
+
+.calendar-grid{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    border: 10px solid rgba(0, 34, 6, 0.418);
+    border-radius: 5em;
+}

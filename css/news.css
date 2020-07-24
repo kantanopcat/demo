@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css2?family=Mitr&display=swap);
+
+
+
+
+.content-news{
+    max-width: 960px;
+    height: auto;
+    
+}
+.content-news h1{
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: 'Mitr', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px rgb(0, 71, 42);
+    color: rgb(0, 116, 67);
+}
+
+
+.content-news-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-family: 'Mitr', sans-serif;
+    text-align: center;
+    gap: 1rem;
+    
+}
+
+.content-news-item{
+    background-color: rgb(168, 168, 168);
+    padding: 20px;
+    
+}
+
+.content-news-item h2{
+    color: rgb(0, 58, 34);
+    margin: 20px 0;
+    border-bottom: 3px ;
+}
+
+.content-news-item p{
+    color: #ffffff;
+}
+
+.content-news-grid a{
+    color: teal;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: yellowgreen;
+    border-radius: 100rem;
+    transition: .5s ease-in-out;
+}
+.content-news-grid:hover a{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-decoration: none;
+    background-color: rgb(51, 77, 0);
+    border-radius: 100rem;
+    
+}
+

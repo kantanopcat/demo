@@ -1,0 +1,32 @@
+    *{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+    .gallery-page{
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 10px;
+        margin-top: 5%;        
+    }
+
+    .gallery-page-item{
+        background-color: rgba(0, 128, 0, 0.226);
+        padding: 2% 2%;
+        border-radius: 5px;
+    }
+
+
+
+    .gallery-page-item img{
+       
+        
+    }
+
+    .gallery-page-item h1{
+        background-color: rgba(172, 255, 47, 0.534);
+        font-size: 14px;
+    }
